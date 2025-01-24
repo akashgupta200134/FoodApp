@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import MainContainer from "./components/MainContainer";
 import CreateContainer from "./components/CreateContainer";
 import { AnimatePresence } from "framer-motion";
+import Menu from "./components/Menu";
 
 const App = () => {
   return (
@@ -15,6 +16,11 @@ const App = () => {
           <Routes>
             <Route path="/*" element={<MainContainer />}></Route>
             <Route path="/CreateItem" element={<CreateContainer />}></Route>
+            <Route path="/Menu" element = {<Menu/>}></Route>
+                 
+                
+           
+         
           </Routes>
         </main>
       </div>
