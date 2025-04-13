@@ -34,17 +34,11 @@ const CreateContainer = () => {
         <div className=" w-full py-2 border-b border-gray-400 flex items-center gap-2">
         <IoFastFood  className=" text-xl text-gray-700"/>
 
-
-          <input     type="text" required value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Give a title..." className="w-full h-full text-;g
+          <input type="text" required value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Give a title..." className="w-full h-full text-;g
            bg-transparent font-semibold outline-none border-none placeholder:text-gray-400 text-textColor">
           </input>
            
         </div>
-
-
-
-
-
 
 
 
